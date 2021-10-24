@@ -3,16 +3,24 @@
 #include <inttypes.h>
 #include <stdlib.h>
 
-int* sum(int* a, int b){
- return a+b;  
-} 
+#define MY_CONDITION 1
+
 typedef int* (*myfunc)(int**, int);
+typedef int lenght;
+int a[2];
+
 struct coord
 {
  uint8_t a;
 };
-typedef int lenght;
- int a[2];
+
+int* sum(int* a, int b){
+ return a+b;  
+} 
+int testingFunktion(int i , int p ){
+  
+}
+
 main()
 
 {
@@ -49,6 +57,8 @@ char ret[20];
 
   return 0;
 }
+
+
 
 
 
